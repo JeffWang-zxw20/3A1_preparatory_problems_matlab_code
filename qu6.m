@@ -10,5 +10,6 @@ end
 
 h = h0 - a*(xmat-x0).^2 - b*(ymat-y0).^2;
 
-v = [-50 -10 -1 0 2 7];
+%v = [-50 -10 -1 0 2 7];
+v = linspace(-50,20,100);
 contour(xmat,ymat,h,v,'ShowText','on');
